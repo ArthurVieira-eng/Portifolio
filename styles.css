@@ -1,0 +1,74 @@
+/* Reseta algumas configurações padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Parte responsável pelo corpo do site.*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+/*Responsável pelos títulos.*/
+h1 {
+    color:aqua;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.blue-heading{
+    color: blue;
+}
+
+/*Responsável pelos sub-títulos.*/
+h2 {
+    color: blue;
+    font-size: 2em;
+    margin: 10px 0;
+}
+/*Responsável pelo outro sub-título.*/
+h3{
+
+   color:goldenrod;
+   font-size: 1.6em;
+   margin: 10px 0; 
+}
+/*Responsável pelos parágrafos*/
+p {
+    color: white;
+    font-size: 1.1em;
+    margin: 20px auto;
+    max-width: 800px;
+}
+/*Colocando cores nos blocos afim de dividir os conteúdos para melhor navegção do site.*/
+.colored-div{
+    border: 3px solid #3498db;
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    color: white;
+} 
+/*Ajustando os tamanhos dos botões.*/
+.large-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*Criando uma mudança na cor do botão ao passar do mouse.*/
+.large-button:hover{
+    background-color:cyan;
+} 
+/*Ajustando a borda das imagens*/
+.imagem{
+border-radius: 6px;
+}
